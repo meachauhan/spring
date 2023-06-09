@@ -8,9 +8,9 @@
 </head>
 <body>
  Result is: <%= request.getAttribute("result") %>
- 
+ <br>
  Result Display using EL:
- 
+ <br>
  Result is: ${result}
 </body>
 </html>
