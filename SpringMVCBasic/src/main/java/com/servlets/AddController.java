@@ -14,7 +14,7 @@ public class AddController {
 	public ModelAndView add(HttpServletRequest request, HttpServletResponse response) {
 		
 		int i=Integer.parseInt(request.getParameter("n1"));
-		int j=Integer.parseInt(request.getParameter("n1"));
+		int j=Integer.parseInt(request.getParameter("n2"));
 		int result=i+j;
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("display.jsp");
